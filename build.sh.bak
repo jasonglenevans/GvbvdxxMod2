@@ -1,0 +1,10 @@
+cd scratch-gui/
+dir
+npm build
+cd ../scratch-vm
+dir
+npm build
+cd ../
+dir
+node build.js
+start upload.sh
